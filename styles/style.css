@@ -87,6 +87,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: 24px;
 }
 .about-text p{
@@ -207,6 +208,9 @@
 }
 .for-who-content p{
         font-size: 24px;
+}
+.for-who-content h1{
+        text-align: center;
 }
 .how-to-container{
     display: flex;
