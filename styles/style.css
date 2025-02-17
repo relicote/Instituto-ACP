@@ -168,6 +168,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 4%;
+    width: 100%;
+    overflow: hidden;
     background-color: #008748;
 }
 .open-call-content-left{
@@ -182,10 +184,12 @@
     font-size: 24px;
 }
 .open-call-content-right img{
-    display: flex;
+    display: block;
     margin: 24px;
     padding: 24px;    
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 .for-who-container{
     display: flex;
@@ -227,10 +231,11 @@
 }
 .about-simbi-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #441534;
     background-color: #F8E7CF;
+    overflow: hidden;
 }
 .about-simbi-content-left{
     display: flex;
@@ -241,10 +246,13 @@
 .about-simbi-content-left p{
     font-size: 24px;
 }
-.about-simbi-content-right{
-    display: flex;
-    justify-content: center;
+.about-simbi-content-right img{
+    display: block;
     margin: 24px;
+    justify-content: center;
+    width: 800px;
+    height: 100%;
+
 }
 .footer-container{
     display: flex;
