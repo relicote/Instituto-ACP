@@ -45,8 +45,8 @@
 }
 .nav-bar-menu-button button {
     display: flex;
-    height: 40px;
-    width: 200px;
+    height: 48px;
+    width: 230px;
     justify-content: center;
     align-items: center;
     padding: 16px;
@@ -68,7 +68,7 @@
     background-image: url("/source/images/header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 870px;
     width: 100%;
 }
 .about-container {
@@ -154,7 +154,7 @@
     align-items: center;
     padding: 16px;
     margin: 32px;
-    border: 2px solid white;
+    border: 2px solid #008647;
     background-color: #008647;
     color: #F8E7CF;
     border-radius: 8px;
