@@ -165,9 +165,9 @@
 }
 .open-call-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 44px;
+    margin-top: 4%;
     background-color: #008748;
 }
 .open-call-content-left{
@@ -177,19 +177,15 @@
     text-align: justify;
     margin: 24px;
     padding: 24px;
-    height:280px;
-    width: 800px;
 }
 .open-call-content-left p{
     font-size: 24px;
 }
-.open-call-content-right{
+.open-call-content-right img{
     display: flex;
-    justify-content: center;
     margin: 24px;
     padding: 24px;    
-    height: 500px;
-    width: auto;
+    width: 90%;
 }
 .for-who-container{
     display: flex;
