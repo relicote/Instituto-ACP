@@ -328,10 +328,13 @@
 
 @media only screen and (max-width: 434px) {
     .nav-bar-container{
-        height: 80px;
+        height: 90px;
     }
     .nav-logo{
         height: 80px;
+    }
+    .nav-bar-content{
+        padding: 0;
     }
     .nav-bar-menu-list{
         display: flex;
@@ -361,6 +364,7 @@
         height: 100%;
         background-color: #441534;
     }
+
     .how-to-container{
         flex-direction: column;
         height: 100%;
