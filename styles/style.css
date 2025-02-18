@@ -195,7 +195,7 @@
     font-size: 24px;
 }
 .open-call-content-right img{
-    display: block;
+    display: flex;
     margin: 24px;
     padding: 24px;    
     width: 90%;
@@ -323,4 +323,54 @@
 .about-simbi-content-right img{
     width: 500px;
 }
+}
+
+@media only screen and (max-width: 414px) {
+    .nav-bar-container{
+        display: grid;
+        height: 80px;
+    }
+    .nav-logo{
+        height: 80px;
+    }
+    .nav-bar-menu-list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-bar-menu-button button{
+        width: 120px;
+        height: 50px;
+    }
+    .header-container{
+        background-size: cover; 
+    }
+    .open-call-container{
+        flex-direction: column;
+        height: 100%;
+        background-color: #008748;
+    }
+
+    .open-call-content-right img{
+        width: 80%;
+    }
+
+    .for-who-container{
+        flex-direction: column;
+        height: 100%;
+        background-color: #441534;
+    }
+    .how-to-container{
+        flex-direction: column;
+        height: 100%;
+        background-color: #F8E7CF;
+    }
+    .about-simbi-container{
+        flex-direction: column;
+        height: 100%;
+        background-color: #F8E7CF;
+    }
+    .about-simbi-content-right img{
+        width: 80%;
+    }
 }
