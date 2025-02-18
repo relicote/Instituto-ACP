@@ -71,7 +71,7 @@
     background-image: url("/source/images/header.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 870px;
+    height: 44vw;
 }
 .about-container {
     display: flex;
@@ -292,8 +292,7 @@
 
 /* Media Queries */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1270px) {
     .nav-bar-container{
         height: 100px;
     }
@@ -305,7 +304,6 @@
 }
 
 .header-container{
-    height: 32vh;
     background-size: cover; 
 }
 
@@ -314,6 +312,7 @@
     height: 100%;
     background-color: #008748;
 }
+
 
 .about-simbi-container{
     flex-direction: column;
