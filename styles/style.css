@@ -327,7 +327,6 @@
 
 @media only screen and (max-width: 414px) {
     .nav-bar-container{
-        display: grid;
         height: 80px;
     }
     .nav-logo{
@@ -368,9 +367,9 @@
     .about-simbi-container{
         flex-direction: column;
         height: 100%;
-        background-color: #F8E7CF;
+        background-color: white;
     }
     .about-simbi-content-right img{
-        width: 80%;
+        width: 90%;
     }
 }
