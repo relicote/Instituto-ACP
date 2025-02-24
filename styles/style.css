@@ -164,7 +164,7 @@
     justify-content: center;
     align-items: center;
 
-    animation: pulsate 1.5s infinite ease-in-out;
+    /* animation: pulsate 1.5s infinite ease-in-out; */
 }
 
 @keyframes pulsate {
