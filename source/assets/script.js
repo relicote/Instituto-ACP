@@ -24,3 +24,7 @@ document.getElementById("inscreverProjeto").addEventListener("click", function()
 document.getElementById("inscreverIniciativa").addEventListener("click", function(){
     window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSerulCSQ45Y1j3HIZi7KbUVcvP9Oqakv7drF_iekeKGSzFzEw/viewform";
 });
+
+document.getElementById("teoria").addEventListener("click", function(){
+    window.location.href = "https://drive.google.com/file/d/1SFTGniWU511uQByEwWuk_tPydJHcfAbv/view";
+});
