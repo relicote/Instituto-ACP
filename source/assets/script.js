@@ -26,5 +26,5 @@ document.getElementById("inscreverIniciativa").addEventListener("click", functio
 });
 
 document.getElementById("teoria").addEventListener("click", function(){
-    window.location.href = "https://drive.google.com/file/d/1SFTGniWU511uQByEwWuk_tPydJHcfAbv/view";
+    window.location.href = "https://drive.google.com/file/d/10mpMJkBYNGCuWhquE65T2SocpI4fYjkS/view";
 });
