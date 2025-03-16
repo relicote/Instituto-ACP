@@ -394,12 +394,12 @@
     .how-to-container{
         flex-direction: column;
         height: 100%;
-        background-color: #F8E7CF;
     }
     .about-simbi-container{
         flex-direction: column;
         height: 100%;
-        background-color: white;
+        background-color: #F8E7CF;
+
     }
     .about-simbi-content-right img{
         width: 90%;
