@@ -251,6 +251,11 @@
     overflow: hidden;
 
 }
+
+.for-who-content a{
+    /* text-decoration: none !important; */
+    color: #F8E7CF;
+}
 .how-to-content{
     display: flex;
     flex-direction: column;
