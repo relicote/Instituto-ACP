@@ -217,9 +217,9 @@
 }
 .open-call-content-right img{
     display: flex;
-    margin: 24px;
+    margin: 24px 24px 24px 80px;
     padding: 24px;    
-    width: 90%;
+    width: 70%;
     max-width: 100%;
     height: auto;
 }
@@ -377,6 +377,7 @@
 
     .open-call-content-right img{
         width: 80%;
+        margin: auto;
     }
 
     .for-who-container{
