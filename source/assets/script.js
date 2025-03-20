@@ -18,11 +18,11 @@ elements.forEach(selector => {
 });
 
 document.getElementById("inscreverProjeto").addEventListener("click", function(){
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSerulCSQ45Y1j3HIZi7KbUVcvP9Oqakv7drF_iekeKGSzFzEw/viewform";
+    window.location.href = "https://simbiosesocial-fronthml.simbi.social/contato-site/f224bff9-5f49-402e-aee8-7662c52bf18b";
 });
 
 document.getElementById("inscreverIniciativa").addEventListener("click", function(){
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSerulCSQ45Y1j3HIZi7KbUVcvP9Oqakv7drF_iekeKGSzFzEw/viewform";
+    window.location.href = "https://simbiosesocial-fronthml.simbi.social/contato-site/f224bff9-5f49-402e-aee8-7662c52bf18b";
 });
 
 document.getElementById("teoria").addEventListener("click", function(){
