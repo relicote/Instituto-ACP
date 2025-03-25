@@ -339,6 +339,9 @@
     background-color: #008748;
 }
 
+.open-call-content-left{
+    text-align: center;
+}
 
 .about-simbi-container{
     flex-direction: column;
@@ -379,7 +382,9 @@
         height: 100%;
         background-color: #008748;
     }
-
+    .open-call-content-left{
+        padding: 0;
+    }
     .open-call-content-right img{
         width: 80%;
         margin: auto;
@@ -389,6 +394,10 @@
         flex-direction: column;
         height: 100%;
         background-color: #441534;
+    }
+
+    .for-who-content{
+        text-align: left;
     }
 
     .how-to-container{
